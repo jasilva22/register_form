@@ -3,7 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>Registration Form</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <style>
+            body {
+                width: 800px;
+                margin: 0 auto;
+                margin-top: 50px;
+                background-color: whitesmoke;
+            }
+            #form {
+                display: block;
+                text-align: center;
+                border: 2px solid #ccc;
+                padding-bottom: 25px;
+            }
+            form {
+                display: inline-block;
+                text-align: left;
+            }
+            p, button {
+                font-family: Verdana, sans-serif;
+                font-size: 20px;
+                color: navy;
+            }
+        </style>
     </head>
     
     <body>
